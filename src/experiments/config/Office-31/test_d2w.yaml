@@ -1,0 +1,17 @@
+DATASET:
+  NUM_CLASSES: 31
+  DATAROOT: '/data/yjk/data/Office-31/'
+
+MODEL:
+  FEATURE_EXTRACTOR: 'resnet50'
+
+TEST:
+  BATCH_SIZE: 100
+  DOMAIN: "webcam"
+
+EVAL_METRIC: "accuracy"
+SAVE_DIR: "./experiments/ckpt"
+NUM_WORKERS: 8
+# set the path to the trained model here
+#WEIGHTS: "./experiments/ckpt/office31_a2w/ckpt_49_4602.weights"
+WEIGHTS: ~
