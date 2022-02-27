@@ -1,7 +1,7 @@
 # Attention-based Cross-Layer Semantic Alignment for Unsupervised DomainAdaptation
 
 ### Introduction
-This repository is for our paper "Attention-based Cross-Layer Semantic Alignment for Unsupervised DomainAdaptation"
+This repository is for our paper "Attention-based Cross-Layer Semantic Alignment for Unsupervised DomainAdaptation" \[Neurocomputing 2022\]
 
 ![](./imges/framework.png)
 
@@ -15,4 +15,4 @@ bash train.sh
 ```
 
 ### Acknowledgement
-Some of the code is adapted from [CAN](https://github.com/kgl-prml/Contrastive-Adaptation-Network-for-Unsupervised-Domain-Adaptation).
+Some of the code is borrowed from [CAN](https://github.com/kgl-prml/Contrastive-Adaptation-Network-for-Unsupervised-Domain-Adaptation).
